@@ -1,0 +1,54 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cdd3da;
+    
+header {
+    background-color: #000000;
+    color: rgba(100, 224, 112, 0.783);
+    padding: 1em;
+    text-align: center;
+}
+
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: red;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+button {
+    background-color: #333;
+    color: rgb(12, 223, 234);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cdd3da;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Add more styles as needed for specific elements */

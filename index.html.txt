@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flying School</title>
+</head>
+<body background="plane2.jpg.webp">
+
+    <header>
+        <h1> 1 in 60 Flying School</h1>
+        <p>Your Gateway to the Skies!</p>
+    </header>
+
+    <section>
+        <section>
+            <h2>Welcome to Our  1 in 60 Flying School</h2>
+            <p>Learn to fly with the best instructors in the industry. Whether you are a beginner or an experienced pilot, we have courses tailored for you.</p>
+            <button onclick="window.location.href='#courses'">Explore Courses</button>
+        </section>
+    
+        <section id="courses">
+            <h2>Our Courses</h2>
+            <p>Choose from a variety of courses designed to suit your needs:</p>
+            <ul>
+                <li>Private Pilot License (PPL)</li>
+                <li>Commercial Pilot License (CPL)</li>
+                <li>Instrument Rating (IR)</li>
+                <li>Multi-Engine Rating</li>
+                <li>Single-Engine Rating</li>
+                <li>And More...</li>
+            </ul>
+            <button onclick="window.location.href='#contact'">Contact Us</button>
+        </section>
+    
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or ready to get started? Contact us today!</p>
+            <p>Email: info@1in60flyingschool.com</p>
+            <p>Phone: +91 0123456789</p>
+        </section>
+    
+    </section>
+    <footer>
+        <p>&copy; 2024 Flying School. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
